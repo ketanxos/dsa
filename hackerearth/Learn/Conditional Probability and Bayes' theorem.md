@@ -31,9 +31,7 @@ int main() {
     double p_ct, p_ot;
     int N;
 
-    cin >> p_ct;
-    cin >> p_ot;
-    cin >> N;
+    cin >> p_ct >> p_ot >> N;
 
     double p_no_trouble_on_time = (1 - p_ct) * p_ot;
     double p_trouble_on_time = p_ct * (2.0 / N);
